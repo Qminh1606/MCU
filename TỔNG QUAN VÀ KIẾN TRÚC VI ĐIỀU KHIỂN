@@ -1,1 +1,14 @@
-
+TỔNG QUAN VÀ KIẾN TRÚC VI ĐIỀU KHIỂN
+1. GIỚI THIỆU VI ĐIỀU KHIỂN
+-Vi điều khiển( VĐK): tên tiếng anh là microcontroller(MCU)
+-VĐK là một máy tính thu nhỏ được tích hợp trên một chip, dùng để điều khiển các thiết bị điện tử.
+-VĐK là một hệ thống bao gồm một vi xử lý có hiệu suất vừa phải và giá thành thấp kết hợp với các khối ngoại vi như bộ nhớ, các module vào/ ra, module ADC/DAC .v.v..
+-VĐK thường được dùng để xây dựng các hệ thống nhúng
+-Ứng dụng: máy giặt, lò vi sóng, tủ lạnh, điện thoại, đầu đọc DVD, thiết bị đa phương tiện, dây chuyền tự động,...
+-Một vi điều khiển(microcontroller) xem như là một máy tính nhỏ trên 1 chip
+Bao gồm: vi xử lý, bộ nhớ, vào/ra .v.v..
+-Lệnh được "nhúng/embedded" bên trong vi điều khiển 
+-Vi điều khiển thường có kích thước nhỏ, giá rẻ.
+-Vi điều khiển thiết kế trên kiến trúc harvard, có bộ nhớ chương trình và bộ nhớ dữ liệu riêng
+-Các thành phần chính trong vi điều khiển: lõi CPU, bộ nhớ chương trình(ROM hoặc bộ nhớ flash), bộ nhớ dữ liệu(RAM), khối điều khiển và các cổng giao tiếp I/O
+-Vi điều khiển khác với các bộ vi xử lý(CPU): hoạt động chỉ với 1 mình vi điều khiển hoặc với 1 vài thiết bị giao tiếp bên ngoài
